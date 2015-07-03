@@ -22,6 +22,8 @@
 		353D4ECE1986C81500D79E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353D4EAD1986C81500D79E3B /* UIKit.framework */; };
 		353D4ED61986C81500D79E3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 353D4ED41986C81500D79E3B /* InfoPlist.strings */; };
 		353D4ED81986C81500D79E3B /* MapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D4ED71986C81500D79E3B /* MapViewTests.m */; };
+		353D4EE31986C9AB00D79E3B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353D4EE21986C9AA00D79E3B /* MapKit.framework */; };
+		353D4EE61986DA6800D79E3B /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D4EE51986DA6800D79E3B /* Annotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		353D4ED31986C81500D79E3B /* MapViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewTests-Info.plist"; sourceTree = "<group>"; };
 		353D4ED51986C81500D79E3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		353D4ED71986C81500D79E3B /* MapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewTests.m; sourceTree = "<group>"; };
+		353D4EE21986C9AA00D79E3B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		353D4EE41986DA6800D79E3B /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		353D4EE51986DA6800D79E3B /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353D4EE31986C9AB00D79E3B /* MapKit.framework in Frameworks */,
 				353D4EAC1986C81500D79E3B /* CoreGraphics.framework in Frameworks */,
 				353D4EAE1986C81500D79E3B /* UIKit.framework in Frameworks */,
 				353D4EAA1986C81500D79E3B /* Foundation.framework in Frameworks */,
@@ -103,6 +109,7 @@
 		353D4EA81986C81500D79E3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				353D4EE21986C9AA00D79E3B /* MapKit.framework */,
 				353D4EA91986C81500D79E3B /* Foundation.framework */,
 				353D4EAB1986C81500D79E3B /* CoreGraphics.framework */,
 				353D4EAD1986C81500D79E3B /* UIKit.framework */,
@@ -120,6 +127,8 @@
 				353D4EBE1986C81500D79E3B /* Main_iPad.storyboard */,
 				353D4EC11986C81500D79E3B /* ViewController.h */,
 				353D4EC21986C81500D79E3B /* ViewController.m */,
+				353D4EE41986DA6800D79E3B /* Annotation.h */,
+				353D4EE51986DA6800D79E3B /* Annotation.m */,
 				353D4EC41986C81500D79E3B /* Images.xcassets */,
 				353D4EB01986C81500D79E3B /* Supporting Files */,
 			);
@@ -255,6 +264,7 @@
 			files = (
 				353D4EC31986C81500D79E3B /* ViewController.m in Sources */,
 				353D4EBA1986C81500D79E3B /* AppDelegate.m in Sources */,
+				353D4EE61986DA6800D79E3B /* Annotation.m in Sources */,
 				353D4EB61986C81500D79E3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
